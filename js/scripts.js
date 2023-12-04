@@ -22,6 +22,9 @@ else if(ageInputValue > 65){
 else{
     price = ticketPrice.toFixed(2);
  }
- document.getElementById('input-result').innerHTML = price
+    document.getElementById('input-result').innerHTML += price
+
+    kminput.value = '';
+    ageInput.value = '';
 }
 )
